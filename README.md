@@ -2,8 +2,10 @@ Quantum Thermodynamic Neuron on a 4‑Qubit Transmon Lattice
 
 This repo contains a Python simulation of a **4‑qubit transmon‑style lattice**
 evolving under a noisy GKSL master equation with mean‑field couplings,
-square‑wave bath driving, and diagnostics inspired by **thermodynamic neurons**
-(Lipka‑Bartosik *et al.*, Sci. Adv. 10, eadm8792, 2024).
+square‑wave bath driving, and diagnostics inspired by a **thermodynamic neuron**
+ developed by Lipka‑Bartosik *et al.*,Science Advances 4 Sep 2024 Vol 10, Issue 36 https://www.science.org/doi/10.1126/sciadv.adm8792
+ 
+ Other citations, but not limited too:
 
 The script generates a high‑resolution animated dashboard (GIF) with:
 
@@ -27,5 +29,6 @@ pip install -r requirements.txt
 How to ctivate a Single Mode(1 Qubit) : python quantum_unified_revised_v23.py --mode single --bath_enable --q_tmax 10.0
 
 How to activate a Lattice Mode ( 4 interacting Qubits) : python quantum_unified_revised_v23.py --mode lattice --bath_enable --q_tmax 12.0 --fps 18
+
 
 
