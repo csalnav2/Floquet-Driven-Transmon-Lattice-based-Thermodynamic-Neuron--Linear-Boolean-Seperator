@@ -1,7 +1,7 @@
 Quantum Thermodynamic Neuron on a 4‑Qubit Transmon Lattice
 
-This repo contains a Python simulation of a **4‑qubit transmon‑style lattice**
-evolving under a noisy GKSL master equation with mean‑field couplings,
+This repo contains a Python simulation of a **4‑qubit transmon‑style lattice** ( Repo and Code will be available for upon request at csalnav2@gmail.com for collaboration purposes only.
+Evolving under a noisy GKSL master equation with mean‑field couplings,
 square‑wave bath driving, and diagnostics inspired by a **thermodynamic neuron**
  developed by Lipka‑Bartosik *et al.*,Science Advances 4 Sep 2024 Vol 10, Issue 36 https://www.science.org/doi/10.1126/sciadv.adm8792
  
@@ -32,14 +32,10 @@ Detailed math on how Sjöqvist and Bures metrics relate for mixed states—good 
 
 Open quantum systems / GKSL master equation
 
-Your whole engine lives inside a GKSL / Lindblad master equation, so it’s good to nod to that:
-
 D. Manzano, “A short introduction to the Lindblad master equation,” AIP Adv. 10, 025106 (2020), arXiv:1906.04478.
 Very readable intro to the GKSL equation and its structure. 
 arXiv
 +1
-
-(If you want a “big textbook” reference, you can also mention Rivas & Huelga’s Open Quantum Systems, but that’s optional.)
 
 Transmon qubits and lattices
 
@@ -100,6 +96,7 @@ pip install -r requirements.txt
 How to ctivate a Single Mode(1 Qubit) : python quantum_unified_revised_v23.py --mode single --bath_enable --q_tmax 10.0
 
 How to activate a Lattice Mode ( 4 interacting Qubits) : python quantum_unified_revised_v23.py --mode lattice --bath_enable --q_tmax 12.0 --fps 18
+
 
 
 
